@@ -7,7 +7,7 @@ class CellularAutomata
     private int x; // ширина
     private int y; // высота
 
-    private void InitRandomField(
+    private void InitRandomField()
     {
         Random random = new Random();
         // разброс для определения начального состояния
