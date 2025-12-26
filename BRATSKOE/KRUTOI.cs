@@ -4,7 +4,7 @@ ca.StartLife();
 class CellularAutomata
 {
     private bool[,] field;
-    private int x // ширина
+    private int x; // ширина
     private int y; // высота
 
     private void InitRandomField()
